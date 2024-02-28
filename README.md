@@ -18,7 +18,7 @@ Here are methods I used in the notebook:
 
 # Results.
 
-The best model for the problem is Prophet, both multivariate (with unknown wind_speed and humidity) and univariate version perform well. When combining with XG boost on the residuals, the results for Prophet is improved. There is a reason for it:
+The best model for the problem is Prophet, both multivariate (with unknown wind_speed and humidity) and univariate version perform well. When combining with XG boost on the residuals, the results of Prophet is improved. There is a reason for it:
 
 - Prophet excels at capturing trend and seasonality, including handling holiday effects and changes in trend.
 
